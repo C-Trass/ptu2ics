@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "ptu2ics"
+type: software
+authors:
+  - family-names: Treacy
+    given-names: Conor A.
+    orcid: "https://orcid.org/0000-0003-2354-4695"
+repository-code: "https://github.com/C-Trass/ptu2ics"
+license: MIT
+abstract: >
+  Python tools for converting PicoQuant PTU files into Image Cytometry Standard (ICS)
+  format for downstream TCSPC and fluorescence lifetime analysis.
+keywords:
+  - FLIM
+  - TCSPC
+  - PicoQuant
+  - PTU
+  - ICS
+  - bioimaging
+version: 0.1.0
+date-released: "2026-01-22"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Treacy
+      given-names: Conor A.
+      orcid: "https://orcid.org/0000-0003-2354-4695"
+  title: "ptu2ics: Converting PicoQuant PTU to Image Cytometry Standard for TCSPC workflows"
+  journal: "Biomedical Optics Express"
+  status: forthcoming
