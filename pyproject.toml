@@ -6,6 +6,10 @@ build-backend = "setuptools.build_meta"
 name = "ptu2ics"
 version = "0.1.0"
 description = "Convert PicoQuant PTU files to Image Cytometry Standard (ICS) for TCSPC workflows"
+dependencies = [
+  "qtpy",
+  "PySide6"
+]
 readme = "README.md"
 requires-python = ">=3.9"
 license = {text = "MIT"}
